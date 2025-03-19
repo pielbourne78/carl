@@ -1,0 +1,145 @@
+.checkout {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: #333;
+}
+
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.billing-info, .payment-info, .order-summary {
+    flex: 1 1 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.order-summary .summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.total h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+}
+.order-summary .summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Add a separator line */
+}
+
+.order-summary .summary-item:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
+
+.order-summary .total {
+    font-size: 1.5em; /* Increase the font size for total */
+    font-weight: bold;
+    margin-top: 15px;
+}
+.footer {
+    background: linear-gradient(to top, #222, #333);
+    color: #f0f0f0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer .frow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .fcol {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer .fcol h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffcc00;
+    text-transform: uppercase;
+}
+
+.footer .fcol ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .fcol ul li {
+    margin-bottom: 10px;
+}
+
+.footer .fcol ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .fcol ul li a:hover {
+    color: #ffcc00;
+}
+
+.footer .social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    padding-left: 100%;
+}
+
+.footer .social-links i {
+    font-size: 20px;
+    color: #f0f0f0;
+    transition: color 0.3s;
+}
+
+.footer .social-links i:hover {
+    color: #ffcc00;
+}
+
+/* Centered Photo Gallery Section */
+.photo-gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Match page or background color */
+}

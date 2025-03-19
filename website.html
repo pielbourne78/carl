@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ROUNDZ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="main">
+            <style>
+                .main {
+                    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(a.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    height: 109vh;
+                }
+            </style>
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><a href="website.html" style="color: white; text-decoration: none;">ROUNDZ</h2>
+                </div>     
+                <div class="menu">
+                    <ul>
+                        <li><a href="HOME.html">HOME</a></li>
+                        <li><a href="GLOVES.html">GLOVES</a></li>
+                        <li><a href="SHORTS.html">SHORTS</a></li>
+                        <li><a href="SHOES.html">SHOES</a></li>
+                        <li><a href="ABOUTUS.html">ABOUT US</a></li>
+                        <li><a href="CONTACT.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form">
+            <h2>LOG IN HERE</h2>
+            <input type="email" id="email" placeholder="Enter Email Here" required>
+            <input type="password" id="password" placeholder="Enter Password" required>
+            <a href="HOME.html"><button class="btn" onclick="login()">Login</button></a>
+            <p class="link">Don't have an account?<br>
+                <a href="#">Sign up here</a>
+            </p>
+            <p class="liw">Log in with</p>
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </main>
+   
+    <footer class="footer">
+        <div class="frow">
+            <div class="fcol">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="ABOUTUS.html">About Us</a></li>
+                    <li><a href="SERVICE.html">Our Services</a></li>
+                    <li><a href="POLICY.html">Privacy Policy</a></li>
+           
+                </ul>
+            </div>
+            <div class="fcol">
+                <h4>GET HELP</h4>
+                <ul>
+                    <li><a href="PAYMENT.html">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="fcol">
+                <h4>FOLLOW US</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+    
+            // Simulated login process
+            if (email === "user@example.com" && password === "password") {
+                alert("Login successful!");
+                window.location.href = "HOME.html"; // Redirect to home page on successful login
+            } else {
+                alert("Invalid email or password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

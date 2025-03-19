@@ -1,0 +1,72 @@
+
+.gloves {
+    padding: 40px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(pp.jpg);
+}
+
+.gloves h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.gloves-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px; /* Adjust max-width to control the container size */
+    margin: 0 auto; /* Centers container on larger screens */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.glove-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.glove-item:hover {
+    transform: translateY(-5px);
+}
+
+.glove-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.glove-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.glove-item p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.glove-item .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.glove-item .btn:hover {
+    background-color: #555;
+}

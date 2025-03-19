@@ -1,0 +1,33 @@
+.privacy-policy {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.privacy-policy h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.policy-section {
+    margin-bottom: 30px;
+}
+
+.policy-section h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.policy-section p, .policy-section ul {
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.6em;
+}
+
+.policy-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

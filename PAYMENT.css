@@ -1,0 +1,33 @@
+.payment-options {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.payment-options h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-method {
+    margin-bottom: 30px;
+}
+
+.payment-method h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.payment-method p, .payment-method ul {
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.6em;
+}
+
+.payment-method ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
